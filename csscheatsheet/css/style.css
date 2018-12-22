@@ -146,6 +146,9 @@ a:visited {
 /* Positioning */
 
 .positioning-box {
+  background-image: url('../img/bgimage.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
   width: 800px;
   height: 500px;
   border: 1px solid #000;
@@ -155,4 +158,24 @@ a:visited {
 .fix-me {
   position: fixed;
   top: 400px;
+}
+
+.my-list li {
+  color: #fff;
+}
+
+.my-list li:first-child {
+  background: red;
+}
+
+.my-list li:last-child {
+  background: blue;
+}
+
+.my-list li:nth-child(5) {
+  background: green;
+}
+
+.my-list li:nth-child(even) {
+  background: black;
 }
