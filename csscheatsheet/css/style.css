@@ -1,11 +1,13 @@
-/* * {
-  margin: 0;
-  padding: 0;
-} */
+/* globals */
+* {
+  box-sizing: border-box;
+}
 
 .clearfix {
   clear: both;
 }
+
+/* Main Elements */
 
 body {
   background-color: #f4f4f4;
@@ -44,12 +46,27 @@ a:visited {
   width: 80%;
 }
 
+/* Course Notes  */
+
 .box-1 {
   background-color: #000;
   border: 5px red solid;
   color: #fff;
   margin-top: 20px;
   padding: 20px;
+  float: left;
+  width: 50%;
+}
+
+.box-1a {
+  margin-top: 20px;
+  padding: 20px;
+  float: right;
+  width: 50%;
+}
+
+.box-1a img {
+  height: 200px;
 }
 
 .box-1 h1 {
@@ -120,23 +137,23 @@ a:visited {
 /* Float Section */
 
 .block {
-  float: left;
-  width: 33.3%;
+  /* box-sizing: border-box; */
   border: 1px solid #ccc;
+  float: left;
   padding: 10px;
-  box-sizing: border-box;
+  width: 33.3%;
 }
 
 #main-block {
   box-sizing: border-box;
-  padding: 15px;
   float: left;
+  padding: 15px;
   width: 70%;
 }
 
 #sidebar {
   background-color: #333;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   color: #fff;
   float: right;
   padding: 15px;
@@ -149,16 +166,20 @@ a:visited {
   background-image: url('../img/bgimage.jpg');
   background-position: center center;
   background-repeat: no-repeat;
-  width: 800px;
-  height: 500px;
   border: 1px solid #000;
+  height: 500px;
   margin-top: 30px;
+  width: 800px;
 }
+
+/* Fixed button example */
 
 .fix-me {
   position: fixed;
   top: 400px;
 }
+
+/* PSEUDO CLASSES */
 
 .my-list li {
   color: #fff;
