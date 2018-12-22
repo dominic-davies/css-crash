@@ -3,6 +3,10 @@
   padding: 0;
 } */
 
+.clearfix {
+  clear: both;
+}
+
 body {
   background-color: #f4f4f4;
   color: #555;
@@ -111,4 +115,30 @@ a:visited {
 .button:hover {
   background-color: red;
   color: #fff;
+}
+
+/* Float Section */
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block {
+  box-sizing: border-box;
+  padding: 15px;
+  float: left;
+  width: 70%;
+}
+
+#sidebar {
+  background-color: #333;
+  box-sizing: border-box;
+  color: #fff;
+  float: right;
+  padding: 15px;
+  width: 30%;
 }

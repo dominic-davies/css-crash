@@ -72,6 +72,64 @@
         <br />
         <input class="button" type="submit" name="submit" value="submit" />
       </form>
+      <h2>Alignment and floating</h2>
+      <div class="block">
+        <h3>Notes</h3>
+        <p>
+          You can float 3 same size divs 33.3% each. However when you add
+          padding and borders it will break the layout. Fix this with
+          box-sizing: border-box which takes the extra sizing into account.
+          Flexbox does all this well (not covered here).
+        </p>
+      </div>
+      <div class="block">
+        <h3>Clear the float</h3>
+        <p>
+          Creat a div class clearfix and place after floated elements. in the
+          css .clearfix clear: both;
+        </p>
+      </div>
+      <div class="block">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
+          expedita dicta repellat exercitationem ea distinctio quis provident
+          hic cupiditate quae adipisci natus, aliquam architecto impedit labore
+          iste tempore pariatur voluptatibus harum inventore animi ut
+          repudiandae. Repellat rem totam nobis quo rerum quas vitae, quod,
+          dignissimos esse, veniam velit asperiores. Deserunt nam nisi, maiores
+          dignissimos rerum ducimus perferendis doloribus iste quia!
+        </p>
+      </div>
+      <div class="clearfix"></div>
+      <h2>Having a main section and sidebar in a row.</h2>
+      <div id="main-block">
+        <h3>Heading</h3>
+        <p>#main-block { float: left; width: 70%; }</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
+          expedita dicta repellat exercitationem ea distinctio quis provident
+          hic cupiditate quae adipisci natus, aliquam architecto impedit labore
+          iste tempore pariatur voluptatibus harum inventore animi ut
+          repudiandae. Repellat rem totam nobis quo rerum quas vitae, quod,
+          dignissimos esse, veniam velit asperiores. Deserunt nam nisi, maiores
+          dignissimos rerum ducimus perferendis doloribus iste quia!
+        </p>
+      </div>
+      <div id="sidebar">
+        <h3>sidebar</h3>
+        <p>#sidebar { float: right; width: 30%; }</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
+          expedita dicta repellat exercitationem ea distinctio quis provident
+          hic cupiditate quae adipisci natus, aliquam architecto impedit labore
+          iste tempore pariatur voluptatibus harum inventore animi ut
+          repudiandae. Repellat rem totam nobis quo rerum quas vitae, quod,
+          dignissimos esse, veniam velit asperiores. Deserunt nam nisi, maiores
+          dignissimos rerum ducimus perferendis doloribus iste quia!
+        </p>
+      </div>
+      <div class="clearfix"></div>
     </div>
     <footer><p>Copyright 2018, Dominic Davies</p></footer>
   </body>
