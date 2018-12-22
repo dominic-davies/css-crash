@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f4f4f4;
   color: #555;
@@ -57,4 +61,42 @@ body {
   font-size: 50px;
   line-height: 1.6em;
   padding-top: 30px;
+}
+
+#main {
+  float: left;
+  padding: 0 30px;
+  width: 70%;
+}
+
+#sidebar {
+  background: #333;
+  color: #fff;
+  float: right;
+  padding: 0 30px;
+  width: 30%;
+}
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+/* Screens smaller than 960px wide */
+
+@media (max-width: 960px) {
+  #main {
+    width: 100%;
+    float: none;
+  }
+
+  #sidebar {
+    width: 100%;
+    float: none;
+  }
 }
