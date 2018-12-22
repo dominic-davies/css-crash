@@ -1,13 +1,38 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 body {
   background-color: #f4f4f4;
   color: #555;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  margin-top: 30px;
+  padding: 50px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a:visited {
+  color: purple;
 }
 
 .container {
@@ -21,4 +46,69 @@ body {
   color: #fff;
   margin-top: 20px;
   padding: 20px;
+}
+
+.box-1 h1 {
+  font-family: Tahoma;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.box-2 {
+  border: 3px dotted #ccc;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.categories {
+  border: 1px #ccc solid;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  padding: 0;
+  list-style: none;
+}
+
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333;
+}
+
+/* Form */
+
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type='text'],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+/* .my-form input[type='submit'] { */
+.button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.button:hover {
+  background-color: red;
+  color: #fff;
 }
