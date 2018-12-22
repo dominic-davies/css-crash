@@ -142,3 +142,17 @@ a:visited {
   padding: 15px;
   width: 30%;
 }
+
+/* Positioning */
+
+.positioning-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+}

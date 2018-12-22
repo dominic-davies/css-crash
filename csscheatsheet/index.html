@@ -130,7 +130,34 @@
         </p>
       </div>
       <div class="clearfix"></div>
+      <h2>Positioning</h2>
+      <ul>
+        <li>static (defaul)</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <li>Fixed</li>
+        <li>Initial</li>
+        <li>Inherit</li>
+      </ul>
+      <p>
+        If we want to move an element and give it postion: absolute with
+        top:40px it will goto top of it's parent (body) as we haven't given
+        another element a Relative position. So if you want to move it within a
+        immediate element just set that element as relative.
+      </p>
+      <ul>
+        <li>top: 100px means from the top 100px ie. down</li>
+        <li>bottom: 100px means from the bottom 100px ie. up</li>
+        <li>left: 100px means from the left 100px ie. right</li>
+        <li>right: 100px means from the right 100px ie. left</li>
+      </ul>
+
+      <div class="positioning-box">
+        <h1>Hello</h1>
+        <h2>Goodbye</h2>
+      </div>
     </div>
+    <button class="fix-me button">Fixed Button</button>
     <footer><p>Copyright 2018, Dominic Davies</p></footer>
   </body>
 </html>
